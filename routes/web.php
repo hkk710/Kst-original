@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 Route::get('/temple', 'TempleController@index')->name('temple');
 Route::get('/festivals', 'FestivalController@index')->name('festivals');
+Route::get('/activities', 'ActivityController@index')->name('activities');
