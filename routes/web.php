@@ -15,3 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/temple', 'TempleController@index')->name('temple');
+Route::get('/festivals', 'FestivalController@index')->name('festivals');
